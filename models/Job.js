@@ -5,7 +5,7 @@ const JobSchema = new mongoose.Schema({
     applicationLink : String,
     postedDate : {
       type : Date,
-      default : Date.now
+      default: Date.now
     }
     }
 );
